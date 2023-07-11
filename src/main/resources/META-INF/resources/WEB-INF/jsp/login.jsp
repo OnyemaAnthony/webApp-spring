@@ -1,12 +1,18 @@
 <html>
 
 <head>
-    <title>My first Html</title>
+    <title>Loging page</title>
 </head>
 
 <body>
+Welcome to the login page
+<pre>${errorMessage}</pre>
 
-<h1>Login  ${name}</h1>
+<form method="post">
+    Name:<input type="text"name="name">
+    Password:<input type="password"name="password">
+    <input type="submit">
+</form>
 
 
 
