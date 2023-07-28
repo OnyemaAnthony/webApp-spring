@@ -19,8 +19,8 @@ public class LoginController {
 
     @GetMapping("login")
     public String login(){
-//        model.put("name",name);
-//        logger.info("Request params {}",name);
+
+
      return "login";
     }
 
